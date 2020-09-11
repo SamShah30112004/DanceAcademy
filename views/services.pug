@@ -1,0 +1,71 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/style.css
+        include ../static/CSS/services.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    section#ServicesSection
+        h1.heading Our Services
+        div.container
+            div.card 
+                h2 Western Dance Styles
+                div.card-box
+                    div.text
+                        p Ballet: Using precise and formalized steps-gestures, it is a rigorous style that lays foundation of most forms of dance training.It is an excellent teaching tool for all dancers.
+                        a(href="/video" class="link" id="link1")
+                            |More
+
+            div.card
+                h2 No Restrictions
+                div.card-box
+                    div.text 
+                        p Practice is the act of rehearsing a behaviour over and over, for the purpose of improving or mastering it, as in the phrase 'practice makes perfect'.
+                        a(href="/video1" class="link" id="link2")
+                            | More
+
+            div.card 
+                h2 Best Training
+                div.card-box
+                    div.text
+                        p We have personal trainers who have earned certification which demonstrates that they have achieved a level of competency for creating effective dance programs.
+                        a(href="/video2" class="link" id="link3")
+                            | More
+                                
+            div.card 
+                h2 Best Teachers
+                div.card-box
+                    div.text
+                        p Training has specific goals of improving one's capability, capacity, productivity and performance. We have such teachers who selflessly aim at making your child the best.
+                        a(href="/video3" class="link" id="link4")
+                            | More
+        hr
+
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire

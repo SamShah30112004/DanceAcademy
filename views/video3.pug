@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/video.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    h1#heading Choreography Makes Sense
+    p#text Dance is a performing art form consisting of purposefully selected sequences of human movement. This movement has aesthetic and symbolic value, and is acknowledged as dance by performers and observers within a particular culture.Dance can be categorized and described by its choreography, by its repertoire of movements, or by its historical period or place of origin.[4]
+
+    video#myVideo(controls autoplay)
+        source(src='/static/Dance3.mp4' type='video/mp4')
+
+    hr
+
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire

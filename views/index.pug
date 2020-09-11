@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    style
+        include ../static/CSS/style.css
+  body
+    nav#navbar.top
+        ul
+        
+        li #[a(href="/") Home]
+        li #[a(href="/") Services]
+        li #[a(href="/") About Us]
+        li #[a(href="/") Classes Info]
+        li #[a(href="/") Contact Us]
+
+    section#introSection
+        div.logo
+            img(src="/static/logos/Logo.png")
+            h4 HDA
+        div#welcome Welcome To Harsh's Dance Academy
+        div#tagline Eat Dance Sleep Repeat
+        
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire
+
+    section#sponsorSection
+        h1.heading Our Sponsors
+        div#sponsors
+            img(src="/static/logos/Jio.jpg", alt="Sponsor Images" class="spImages")
+            img(src="/static/logos/Hp.jpg", alt="Sponsor Images" class="spImages")
+            img(src="/static/logos/Dell.jpg", alt="Sponsor Images" class="spImages")
+            img(src="/static/logos/Microsoft.jpg", alt="Sponsor Images" class="spImages")
+    footer#footer
+        | Copyright 2020 HarryDanceAcademy.com | All Rights Reserved 
+    
+    script
+        include ../static/index.js

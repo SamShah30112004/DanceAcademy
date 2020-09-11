@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#navbar .logo img{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    filter: invert(1);
+    align-items: center;
+    margin: 2px;
+}
+
+#navbar{
+    display: flex;
+    background-color: rgb(255, 100, 100);
+    padding: 4px 6px;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.8;
+}
+
+#navbar li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color:white;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover{
+    color:black;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    padding: 12px;
+}
+
+h1.heading{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 3rem;
+}
+
+#sponsorSection{
+    background-color: rgb(255, 238, 238);
+}
+
+#sponsorSection #sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+
+.spImages{
+    height: 65%;
+    margin: 20px 27px;
+}
+
+hr{
+    border: 3px solid black;
+}

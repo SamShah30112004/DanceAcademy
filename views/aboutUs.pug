@@ -1,0 +1,40 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/aboutUs.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    
+    section#introSection
+        h1.heading HARSH DANCE ACADEMY
+        div#text
+            p With an aim to provide quality dance training and making dance available to all, HARSH dance classes run throughout the year at multiple locations for students from ages four to eighty four providing them with training in various dance styles by Harsh's expert faculty. The classes give them an opportunity to learn dance, express themselves creatively and perform on stage. Classes are available for children (4 to 6 years), juniors (7 to 11 years) and adults (12 years onwards).
+    hr  
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire

@@ -1,0 +1,117 @@
+#navbar{
+    display: flex;
+    background-color: rgb(255, 100, 100);
+    padding: 4px 6px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#navbar li a{
+    font-size: 2rem;
+}
+
+#introSection div#welcome{
+    font-size: 5.5rem;
+}
+
+#introSection div#tagline{
+    font-size: 4rem;
+}
+
+#MissionSection .container{
+    display: flex;
+    flex-direction: column;
+}
+
+#MissionSection .card{
+    margin: 18px auto;
+    height: 250px;
+    width: 90%;
+    border: 2px solid black;
+    background-color: rgb(255, 238, 238);
+}
+
+#MissionSection div.text p{
+    font-size: 2rem;
+}
+
+#MissionSection div.card h2{
+    font-size: 3rem;
+} 
+
+div.card-box div.image img{
+    height: 130px;
+}
+
+#sponsorSection{
+    height:516px;
+}
+
+#sponsorSection #sponsors{
+    flex-wrap: wrap;
+}
+
+.spImages{
+    height: 85%;
+    margin: 25px 70px;
+}
+
+
+#ServicesSection .card{
+    margin: 23px auto;
+    height: 395px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: rgb(255, 238, 238);
+}
+
+#ServicesSection .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#ServicesSection .card {
+    height: 260px;
+    width: 85%;
+}
+
+#ServicesSection h2 {
+    font-size: 3rem;
+}
+
+#ServicesSection div.text p{
+    font-size: 2rem;
+}
+
+div#link a{
+    font-size: 2.5rem;
+}
+
+#form input{
+    font-size: 3rem;
+}
+
+.btn{
+    font-size: 2.5rem;
+    margin: 26px auto;
+}
+
+#footer{
+    font-size: 2rem;
+}
+
+h1.heading{
+    font-size: 3.8rem;
+}
+
+.myInput{
+    margin: 45px auto;
+    padding: 12px;
+    font-size: 2.5rem;
+}
+
+#myVideo{
+    width:980px;
+}
+
+div.text p{
+    font-size: 2.5rem;
+}

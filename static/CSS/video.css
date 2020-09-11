@@ -1,0 +1,66 @@
+#text{
+    margin: 12px;
+    padding: 12px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#heading{
+    font-size: 3rem;
+    margin: 12px;
+    padding: 12px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+
+#myVideo{
+    width: 1518px;
+}#MissionSection .container{
+    display: flex;
+}
+
+h1.heading{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 3rem;
+}
+
+#MissionSection .card{
+    margin: 23px 23px;
+    height: 250px;
+    width: 33%;
+    border: 2px solid black;
+    background-color: rgb(255, 238, 238);
+}
+
+div.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.image img{
+    margin: 2px;
+    display: block;
+    height: 160px;
+}
+
+#MissionSection h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.8rem;
+}
+
+div.text p{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.4rem;
+}
+
+

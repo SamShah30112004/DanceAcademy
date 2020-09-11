@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/video.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    h1#heading Training
+    p#text Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful competencies. Training has specific goals of improving one's capability, capacity, productivity and performance. It forms the core of apprenticeships and provides the backbone of content at institutes of technology (also known as technical colleges or polytechnics). In addition to the basic training required for a trade, occupation or profession, training may continue beyond initial competence to maintain, upgrade and update skills throughout working life.
+
+    video#myVideo(controls autoplay)
+        source(src='/static/Dance2.mp4' type='video/mp4')
+
+    hr
+
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire

@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/video.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    h1#heading Bollywood and Western Dance
+    p#text Currently Bollywood Dance is still influenced by Western culture, perhaps even more so today than when it began. Elements include the use of frequent costume and location changes during dances, as well as the use of larger dance troupes.
+
+    video#myVideo(controls autoplay)
+        source(src='/static/Dance.mp4' type='video/mp4')
+
+    hr
+
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire

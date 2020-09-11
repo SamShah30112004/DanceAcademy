@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/CSS/login.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    div#container
+        h1 Log In
+        form(action="/login", method="post")
+            input(type="email", name="email" class="myInput" placeholder="Enter Your Email")
+            
+            input(type="password", name="password" class="myInput" placeholder="Enter Your Password")
+
+            button(class="btn")
+                | Log In
+        div.text
+                p Signed Up ? To avail discounts
+                    a(href="/SignUp") 
+                        |Sign Up Now!!
+
+    <hr>
+        section#MissionSection
+            h1.heading Our Mission
+            div.container
+                div.card 
+                    h2 Western Dance Styles Included
+                    div.card-box
+                        div.image 
+                            img(src="/static/logos/Box1.png")
+                        div.text
+                            p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+                div.card
+                    h2 No Restrictions On dancing
+                    div.card-box
+                        div.image 
+                            img(src="/static/logos/Box2.png")
+                        div.text
+                            p Not On Hourly Basis Dance as much as you like.
+
+                div.card 
+                    h2 Best Teachers | Best Training
+                    div.card-box
+                        div.image 
+                            img(src="/static/logos/Box3.png")
+                        div.text
+                            p Superior teachers demonstrate. Great teachers inspire

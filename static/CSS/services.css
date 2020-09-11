@@ -1,0 +1,70 @@
+#ServicesSection .container{
+    display: flex;
+}
+
+h1.heading{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 3rem;
+}
+
+#ServicesSection .card{
+    display: block;
+    margin: 23px auto;
+    height: 250px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: rgb(255, 238, 238);
+}
+
+div.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.image img{
+    margin: 2px;
+    display: block;
+    height: 160px;
+}
+
+#ServicesSection h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 12px;
+    font-size: 2rem;
+}
+
+div.text p{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+}
+
+.link{
+        text-align: center;
+        display: block;
+        margin: 30px;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        background: rgb(255, 100, 100);
+}
+
+.link:hover{
+    color: black;
+}
+
+#myVideo{
+    display: block;
+    margin: auto;
+}
+
+#sponsorSection{
+    height: 282px;
+}

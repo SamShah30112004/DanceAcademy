@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 3rem;
+}
+
+.myInput{
+    display: block;
+    margin: 16px auto;
+    padding: 12px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.btn{
+    display: block;
+    padding: 12px 20px;
+    margin: 6px auto;
+    background-color: rgb(255, 100, 100);
+    border: 2px solid white;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+}
+
+#MissionSection .container{
+    display: flex;
+}
+
+h1.heading{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 3rem;
+}
+
+#MissionSection .card{
+    margin: 23px 23px;
+    height: 250px;
+    width: 33%;
+    border: 2px solid black;
+    background-color: rgb(255, 238, 238);
+}
+
+div.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.image img{
+    margin: 2px;
+    display: block;
+    height: 150px;
+}
+
+#MissionSection h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.8rem;
+}
+
+div.text p{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.4rem;
+}
+
+hr{
+    border: 3px solid black;
+}
+
+#container{
+    background: rgb(255, 238, 238);
+}

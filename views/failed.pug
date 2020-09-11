@@ -1,0 +1,19 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/success.css
+
+block content
+    div#container
+        div#image
+            img(src="/static/logos/Wrong.jpg", alt="Success")
+        div#text
+            h1 Failed!
+            p Things to Check:
+            p 1. Age should be greater than 5 Years
+            p 2. The Passwords should match
+            p 3. You Might aldready be registered try logging in.
+            p Sorry For the inconvinience!!
+            p Please Retry!!
+    

@@ -1,0 +1,41 @@
+extends base.pug
+
+block style
+    style
+        include ../static/CSS/video.css
+    link(rel='stylesheet' media='screen and (max-width:1365px)' href='/static/CSS/phone.css')
+
+block content
+    h1#heading Practise Makes A Man Perfect
+    p#text Dance education is a practice whereby students are taught a broad understanding of dance as an art form or trained professionally. Currently, dance itself is considered an allied form of art and music. Although dance education is different from country to country and even from institution to institution, it is a young field in education and its role in formal education is still highly debated
+    video#myVideo(controls autoplay)
+        source(src='/static/Dance1.mp4' type='video/mp4')
+
+    hr
+
+    section#MissionSection
+        h1.heading Our Mission
+        div.container
+            div.card 
+                h2 Western Dance Styles Included
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box1.png")
+                    div.text
+                        p Ballet, Jazz, Hip Hop, Contemporary, Break Dance. 
+
+            div.card
+                h2 No Restrictions On dancing
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box2.png")
+                    div.text
+                        p Not On Hourly Basis Dance as much as you like.
+
+            div.card 
+                h2 Best Teachers | Best Training
+                div.card-box
+                    div.image 
+                        img(src="/static/logos/Box3.png")
+                    div.text
+                        p Superior teachers demonstrate. The great teachers inspire
